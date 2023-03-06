@@ -8,7 +8,6 @@ from builtins import range
 import numpy as np
 import matplotlib.pyplot as plt
 
-
 class BanditArm:
   def __init__(self, m):
     self.m = m

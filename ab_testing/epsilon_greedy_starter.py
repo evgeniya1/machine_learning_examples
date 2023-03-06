@@ -50,7 +50,7 @@ def experiment():
       j = np.random.randint(len(bandits))# TODO
     else:
       num_times_exploited += 1
-      j = optimal_j # TODO
+      j = np.argmax([b.p_estimate for b in bandits]) # TODO
 
     if j == optimal_j:
       num_optimal += 1
