@@ -12,7 +12,7 @@ from scipy.stats import norm
 
 np.random.seed(1)
 NUM_TRIALS = 2000
-BANDIT_MEANS = [1, 2, 3]
+BANDIT_MEANS = [5, 10, 20]
 
 
 class Bandit:
