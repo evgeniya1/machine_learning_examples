@@ -21,6 +21,7 @@ app = Flask(__name__)
 class Bandit:
   def __init__(self, name):
     self.name = name
+    self.p_estimate = 0
 
   def sample(self):
     # TODO
